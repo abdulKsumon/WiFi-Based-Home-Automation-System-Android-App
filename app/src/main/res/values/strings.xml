@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Wifi-Based Home Automation System</string>
+    <string name="sup">Project Supervisior</string>
+    <string name="patner">Project Members</string>
+    <string name="supdes">Mustafizur Rahman Rana\nLecturer\nDept.of CSE\n Dhaka City College.</string>
+    <string name="Sumon">Abdul Kuddus Sumon\n Reg. No: 1213229</string>
+    <string name="mahbub">Mahbubur Rahman\n Reg. No: 1213291</string>
+    <string name="members"><u>Project Members</u></string>
+
+</resources>

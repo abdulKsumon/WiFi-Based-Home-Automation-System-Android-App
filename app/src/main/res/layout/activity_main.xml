@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#90A4AE"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp">
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/edt_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Put Mobile Hotspot IP"
+        android:padding="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <ImageButton
+
+            android:id="@+id/btn_ledOn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:background="#90A4AE"
+            android:onClick="onClick"
+            android:scaleType="centerCrop"
+            android:src="@drawable/onbutton"/>
+
+
+        <ImageButton
+            android:id="@+id/btn_ledOff"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="8dp"
+            android:background="#90A4AE"
+            android:onClick="onClick"
+            android:scaleType="centerCrop"
+            android:src="@drawable/offbut"/>
+
+
+        <ImageButton
+
+            android:id="@+id/btn_ledOn2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignLeft="@+id/btn_ledOn"
+            android:layout_alignStart="@+id/btn_ledOn"
+            android:layout_below="@+id/btn_ledOn"
+            android:layout_marginTop="8dp"
+            android:background="#90A4AE"
+            android:onClick="onClick2"
+            android:scaleType="centerCrop"
+            android:src="@drawable/onbutton"/>
+
+
+        <ImageButton
+            android:id="@+id/btn_ledOff2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignLeft="@+id/btn_ledOff"
+            android:layout_alignStart="@+id/btn_ledOff"
+            android:layout_alignTop="@+id/btn_ledOn2"
+            android:background="#90A4AE"
+            android:onClick="onClick2"
+            android:scaleType="centerCrop"
+            android:src="@drawable/offbut"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+

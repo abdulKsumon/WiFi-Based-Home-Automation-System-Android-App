@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/supervisior"
+    android:title="@string/sup">
+
+</item>
+    <item
+        android:id="@+id/patnars"
+        android:title="@string/patner">
+
+    </item>
+</menu>
