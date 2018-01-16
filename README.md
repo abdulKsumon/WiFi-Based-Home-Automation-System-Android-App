@@ -1,1 +1,2 @@
 # WiFi-Based-Home-Automation-System-Android-App
+The process of controlling or operating various equipment, machinery, industrial processes, and other applications using various control systems and also with less or no human intervention is termed as automation. There are various types of automation based on the application they can be categorized as home automation, industrial automation, autonomous automation, building automation, etc.,. In this article, let us discuss about wireless home automation using IOT (Internet of Things).
